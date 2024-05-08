@@ -19,7 +19,7 @@ export default function Navbar() {
           />
           <p className='text-center text-3xl text-foreground'>Shield AI</p>
         </Link>
-        <Button asChild>
+        <Button asChild disabled={true}>
           <Link href='#'>Download</Link>
         </Button>
       </div>

@@ -4,6 +4,7 @@ import './globals.css';
 import { cn } from '@/lib/utils';
 import Footer from '@/components/footer';
 import Navbar from '@/components/navbar';
+import { Toaster } from 'sonner';
 
 const font = Oswald({
   subsets: ['latin'],
@@ -56,6 +57,7 @@ export default function RootLayout({
           <div className='opacity-0 animate-in'>{children}</div>
         </main>
         <Footer />
+        <Toaster />
       </body>
     </html>
   );
